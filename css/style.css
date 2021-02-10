@@ -1,0 +1,24 @@
+/* body{
+    height: 8000px;
+    width: 9000px;
+    background-color:rebeccapurple ;
+}
+.video{
+    width: 440px;
+    height: 360px;
+    display: block;
+    margin-bottom: 1em;
+} */
+
+.galerry{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+}
+.img{
+    width: 100%;
+    display: block;
+}
+img{
+    width: 95%;
+}
